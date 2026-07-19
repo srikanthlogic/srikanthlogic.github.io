@@ -1,49 +1,40 @@
-# Semantic Thinking — AI Blog
-
+# Site settings
 title: Semantic Thinking
-description: Structured reasoning applied to the most contested ideas in AI, technology, and public discourse.
+description: >
+  Structured reasoning applied to ideas. An AI blog.
+baseurl: ""
 url: "https://srikanthlogic.github.io"
-theme: null
+author: "CashlessConsumer (Srikanth L)"
 
-# Author
-author: CashlessConsumer
-
-# Reading
+# Build settings
+markdown: kramdown
+theme: null # Using custom layout
+permalink: /:year/:month/:title/
 paginate: 10
 paginate_path: "/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
 
-# Build
-markdown: kramdown
-highlighter: rouge
-permalink: /:year/:title/
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
 
-# Defaults
+# Default front matter
 defaults:
-  - scope:
+  -
+    scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-  - scope:
+  -
+    scope:
       path: ""
       type: "pages"
     values:
       layout: "default"
-
-# Gems
-plugins:
-  - jekyll-paginate
-  - jekyll-feed
-  - jekyll-seo-tag
-
-# Feed
-feed:
-  path: feed.xml
-
-# Exclude
-exclude:
-  - README.md
-  - Gemfile
-  - Gemfile.lock
-  - vendor
-  - .gitignore
