@@ -1,11 +1,10 @@
 ---
-layout: default
 ---
 <article class="post-content">
-  <header class="post-header">
+  <header style="margin-bottom:32px;">
     <h1>{{ page.title }}</h1>
     <div class="post-meta">
-      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
       {% if page.tags %}
         {% for tag in page.tags %}
           <span class="tag">{{ tag }}</span>
@@ -14,4 +13,16 @@ layout: default
     </div>
   </header>
   {{ content }}
+  <nav style="margin-top:48px;padding-top:24px;border-top:1px solid var(--border);display:flex;justify-content:space-between;">
+    <div>
+      {% if page.previous.url %}
+        <a href="{{ page.previous.url }}">&larr; {{ page.previous.title }}</a>
+      {% endif %}
+    </div>
+    <div>
+      {% if page.next.url %}
+        <a href="{{ page.next.url }}">{{ page.next.title }} &rarr;</a>
+      {% endif %}
+    </div>
+  </nav>
 </article>
