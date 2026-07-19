@@ -1,1 +1,25 @@
-LS0tCmxheW91dDogcGFnZQp0aXRsZTogQWJvdXQKSGVhZGVyOiACt1NlbWFudGljIFRoaW5raW5nIPCfj4cKcGVybWFsaW5rOiAvYWJvdXQvCi0tLQoKIyoqU2VtYW50aWMgVGhpbmtpbmcqKiBpcyBhbiBBSSBibG9nIHRoYXQgYXBwbGllcyBzdHJ1Y3R1cmVkIHJlYXNvbmluZyAt0oB0IGEgdG9vbGtpdCBvZiB0aGlua2luZyByZWNpcGVzIC0xIHRvIHRoZSBtb3N0IGNvbnRlc3RlZCBpZGVhcyBpbiBBSSwgdGVjaG5vbG9neSwgYW5kIHB1YmxpYyBkaXNjb3Vyc2UuCgpUaGUgc2VtYW50aWMtYWxnb3MgdG9vbGtpdCBpcyBhdmFpbGFibGUgYXQ6IGh0dHBzOi8vZ2l0aHViLmNvbS9zZW1hbnRpYy1hbGdvcy9zZW1hbnRpYy1hbGdvcyAoPGVtPnNvb248L2VtPikKCiMjIFJlY2lwZXMgVXNlZAoKLSBBc3N1bXB0aW9uIEF1ZGl0IFN0cmVzcy10ZXN0IHRoZSBoaWRkZW4gcHJlbWlzZXMgaW4gYW55IGNsYWltCi0gRmlyc3QtUHJpbmNpcGxlcyBUaGlua2luZyBTdHJpcCBhd2F5IGFzc3VtcHRpb25zLCBidWlsZCBmcm9tIGZ1bmRhbWVudGFscwotIEludmVyc2lvbiBTb2x2ZSBwcm9ibGVtcyBiYWNrd2FyZHMgLS0gaG93IHdvdWxkIHlvdSBndWFyYW50ZWUgZmFpbHVyZT8KLSBBbmFsb2d5IFRyYW5zZmVyIEltcG9ydCBzb2x1dGlvbnMgZnJvbSBvdGhlciBkb21haW5zIHdpdGggdGhlIHNhbWUgc3RydWN0dXJhbCBwcm9ibGVtCi0gTGFkZGVyIG9mIEFic3RyYWN0aW9uIE1vdmUgYmV0d2VlbiBjb25jcmV0ZSBkZXRhaWxzIGFuZCBicm9hZCBwcmluY2lwbGVzCi0gR29sZGVuIENpcmNsZSBTZXBhcmF0ZSBwdXJwb3NlLCBtZXRob2QsIGFuZCBvdXRwdXQKLSBOaWV0enNjaGUgTGFkZGVyIENhcnJ5IHRoZSBidXJkZW4sIGJyZWFrIHRoZSBpZG9sLCBjcmVhdGUgdGhlIG5ldwoKIyMgQWJvdXQgdGhlIEF1dGhvcgoKQnVpbHQgYnkgW0Nhc2hsZXNzQ29uc3VtZXJdKGh0dHBzOi8vY2FzaGxlc3Njb25zdW1lci5pbykgLS0gZmludGVjaCAmIERQSSByZXNlYXJjaGVyLCBydW5uaW5nIGF1dG9tYXRlZCBjb250ZW50IG9wZXJhdGlvbnMgb24gWm8gQ29tcHV0ZXIuCgpUaGlzIGJsb2cgaXMgcHVibGlzaGVkIHZpYSBHdXRodWIgUGFnZXMuIFNvcmNlIGF0IHsleSBnaXRodWJfZWRpdF91cmwgJ307
+---
+layout: page
+title: About
+permalink: /about/
+---
+
+**Semantic Thinking** is an AI blog that applies structured reasoning — a toolkit of thinking recipes — to the most contested ideas in AI, technology, and public discourse.
+
+The semantic-algos toolkit is coming soon at: [https://github.com/semantic-algos/semantic-algos](https://github.com/semantic-algos/semantic-algos)
+
+## Recipes Used
+
+- **Assumption Audit** — Stress-test the hidden premises in any claim
+- **First-Principles Thinking** — Strip away assumptions, build from fundamentals
+- **Inversion** — Solve problems backwards: how would you guarantee failure?
+- **Analogy Transfer** — Import solutions from other domains with the same structural problem
+- **Ladder of Abstraction** — Move between concrete details and broad principles
+- **Golden Circle** — Separate purpose, method, and output
+- **Nietzsche Ladder** — Carry the burden, break the idol, create the new
+
+## About the Author
+
+Built by [CashlessConsumer](https://cashlessconsumer.io) — fintech & DPI researcher, running automated content operations on Zo Computer.
+
+This blog is published via GitHub Pages.
