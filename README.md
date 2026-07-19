@@ -1,14 +1,1 @@
-# Type Theme
-
-![Default Type Theme blog](https://cloud.githubusercontent.com/assets/816965/5142407/19742e48-71d6-11e4-8d9d-fdfe010784f0.png)
-
-A free and open-source [Jekyll](http://jekyllrb.com) theme. Great for blogs and easy to customize.
-
-## Get Started
-
-[Demo](https://rohanchandra.github.io/type-theme/)
-
-[Using Type](https://rohanchandra.github.io/project/type/)
-
-## License
-The MIT License (MIT)
+IyBTZW1hbnRpYyBUaGlua2luZyBCbG9nCgpBbiBBSSBibG9nIHRoYXQgYXBwbGllcyBzdHJ1Y3R1cmVkIHJlYXNvbmluZyByZWNpcGVzIOKAlCBhc3N1bXB0aW9uIGF1ZGl0cywgZmlyc3QtcHJpbmNpcGxlcyBkZWNvbXBvc2l0aW9uLCBpbnZlcnNpb24sIGFuYWxvZ3kgdHJhbnNmZXIsIGxhZGRlci1vZi1hYnN0cmFjdGlvbiBtYXBwaW5nLCBhbmQgTmlldHpzY2hlYW4gY3JpdGlxdWUg4oCUIHRvIHRoZSBtb3N0IGNvbnRlc3RlZCBpZGVhcyBpbiBBSSwgdGVjaG5vbG9neSwgYW5kIHB1YmxpYyBkaXNjb3Vyc2UuCgpWaWV3IGF0ICoqW2h0dHBzOi8vc3Jpa2FudGhsb2dpYy5naXRodWIuaW8vc2VtYW50aWMtdGhpbmtpbmcvXSoqIChvbmNlIFBhZ2VzIGlzIGVuYWJsZWQpCgpUaGUgc2VtYW50aWMtYWxnb3MgdG9vbGtpdCBpcyBhdmFpbGFibGUgYXQ6IGh0dHBzOi8vZ2l0aHViLmNvbS9zZW1hbnRpYy1hbGdvcy9zZW1hbnRpYy1hbGdvcyAoc29vbik=
