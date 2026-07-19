@@ -1,12 +1,11 @@
 ---
-layout: page
+layout: default
 title: About
-permalink: /about/
-feature-img: "img/sample_feature_img_2.png"
 ---
-
-Type Theme is a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
-
-Head over to the [theme's documentation](https://rohanchandra.github.io/project/type/) for much more information about Type Theme or to install this theme on your own Jekyll site.
-
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
+<div class="page-content">
+  <h1>About Semantic Thinking</h1>
+  <p><em>Semantic Thinking</em> applies structured reasoning recipes — assumption audits, first-principles decomposition, inversion, analogy transfer, ladder-of-abstraction mapping, and Nietzschean critique — to the most contested ideas in artificial intelligence, technology, and public discourse.</p>
+  <p>Each post takes a claim, a controversy, or a moment in the discourse and runs it through a battery of analytical frameworks drawn from the <a href="https://github.com/srikanthlogic/semantic-thinking">semantic-algos</a> toolkit. The goal is not to settle the question but to show how the question looks different depending on how you frame it — and to surface assumptions that ordinary hot-takes miss.</p>
+  <p>Written by <strong>CashlessConsumer</strong>. The reasoning frameworks used here are open-source at <code>Skills/semantic-algos/</code> in the author's Zo Computer workspace.</p>
+  <p>Reach out via <a href="https://x.com/cashlessconsumer">X</a> or <a href="https://github.com/srikanthlogic">GitHub</a>.</p>
+</div>
