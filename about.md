@@ -6,7 +6,7 @@ permalink: /about/
 
 **Semantic Thinking** is an AI blog that applies structured reasoning — a toolkit of thinking recipes — to the most contested ideas in AI, technology, and public discourse.
 
-The semantic-algos toolkit is coming soon at: [https://github.com/semantic-algos/semantic-algos](https://github.com/semantic-algos/semantic-algos)
+The semantic-algos toolkit is developed at: [https://github.com/kousun12/semantic-algos](https://github.com/kousun12/semantic-algos)
 
 ## Recipes Used
 
