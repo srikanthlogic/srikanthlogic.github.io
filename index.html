@@ -1,48 +1,39 @@
 ---
 layout: default
-title: Semantic Thinking
+title: ""
 ---
-
 <div class="home-intro">
   <h1>Semantic Thinking</h1>
-  <p>Applying structured reasoning — assumption audits, first-principles decomposition, inversion, analogy transfer, ladder-of-abstraction mapping, and Nietzschean critique — to the most contested ideas in AI, technology, and public discourse.</p>
+  <p>Structured reasoning applied to the most contested ideas in AI, technology, and public discourse. Each post runs a claim or controversy through a battery of analytical recipes — assumption audits, first-principles decomposition, inversion, analogy transfer, ladder-of-abstraction mapping, and Nietzschean critique — to surface what the usual hot takes miss.</p>
+  <p style="margin-top:12px;">Analysis by <strong>CashlessConsumer</strong>, a fintech &amp; DPI researcher.</p>
 </div>
 
-<h2 style="font-size:1.1rem;color:var(--fg-muted);margin-bottom:24px;font-weight:600;letter-spacing:0.5px;text-transform:uppercase;">Posts</h2>
+<h2 style="margin-bottom:16px;">Posts</h2>
 
+{% if paginator.posts.size > 0 %}
 <ul class="post-list">
   {% for post in paginator.posts %}
   <li>
     <div class="post-meta">
-      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
-      {% if post.tags %}
-        {% for tag in post.tags %}
-          <span class="tag">{{ tag }}</span>
-        {% endfor %}
-      {% endif %}
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+      {% for tag in post.tags limit:2 %}<span class="tag">{{ tag }}</span>{% endfor %}
     </div>
-    <h3 class="post-title">
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </h3>
-    {% if post.excerpt %}
-    <div class="post-excerpt">
-      {{ post.excerpt | strip_html | truncatewords: 40 }}
-    </div>
-    {% endif %}
+    <div class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></div>
+    <div class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 35 }}</div>
   </li>
   {% endfor %}
 </ul>
 
-<!-- Pagination -->
+{% if paginator.total_pages > 1 %}
 <div class="pagination">
-  <div>
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | relative_url }}">&larr; Newer</a>
-    {% endif %}
-  </div>
-  <div>
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | relative_url }}">Older &rarr;</a>
-    {% endif %}
-  </div>
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}">&larr; Newer posts</a>
+  {% endif %}
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url }}">Older posts &rarr;</a>
+  {% endif %}
 </div>
+{% endif %}
+{% else %}
+<p>No posts yet. Check back soon.</p>
+{% endif %}
