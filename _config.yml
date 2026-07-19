@@ -1,42 +1,49 @@
-# Jekyll configuration
-# Semantic Thinking — structured reasoning applied to ideas
+# Semantic Thinking — AI Blog
 
-title: "Semantic Thinking"
-tagline: "Structured reasoning applied to ideas"
-description: "Applying assumption audits, first-principles decomposition, inversion, analogy transfer, and Nietzschean critique to the most contested ideas in AI, technology, and public discourse."
-author: CashlessConsumer
+title: Semantic Thinking
+description: Structured reasoning applied to the most contested ideas in AI, technology, and public discourse.
+url: "https://srikanthlogic.github.io"
 theme: null
 
-# Build settings
+# Author
+author: CashlessConsumer
+
+# Reading
+paginate: 10
+paginate_path: "/page:num/"
+
+# Build
 markdown: kramdown
 highlighter: rouge
-permalink: /:year/:month/:day/:title/
-show_drafts: false
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
+permalink: /:year/:title/
 
-paginate: 10
-paginate_path: "/page/:num/"
-
+# Defaults
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-      author: "CashlessConsumer"
-  -
-    scope:
+  - scope:
       path: ""
       type: "pages"
     values:
       layout: "default"
 
+# Gems
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Feed
+feed:
+  path: feed.xml
+
 # Exclude
 exclude:
+  - README.md
   - Gemfile
   - Gemfile.lock
-  - README.md
   - vendor
+  - .gitignore
